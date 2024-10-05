@@ -11,19 +11,19 @@
 3. возможность плохо кодить(честно)
 
 ## Проверить мой код
++ ### Запустите бэкенд в папке backend
+> cd backend
 + Установите зависимости
 > pip install -r requirements.txt
-+ Установите пакеты через Yarn
-> Yarn / NPM Install
-+ Мигрируйте все приколы
-> python manage.py makemigrations
-> python manage.py migrations
-+ Запустите бэкенд в папке backend
-> cd backend
 + Мигрируйте все приколы
 > python manage.py makemigrations
 > python manage.py migrations
 + Запустите сервер бэка
 > python manage.py runserver
+
++ ### В отдельной консоли зайдите в папку фронтенд
+> cd frontend
++ Установите пакеты через Yarn
+> Yarn / NPM Install
 + Запустите сервер фронтенда
-> Yarn dev
+> Yarn dev / NPM run dev
